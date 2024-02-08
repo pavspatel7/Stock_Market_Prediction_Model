@@ -26,4 +26,7 @@ The model's predictive performance was assessed using the precision metric, whic
 ### 7. **Achieved Outcome**
 After training and evaluating the model, a precision score of 61% was achieved. This score indicates that 61% of the model's predictions for the index's price increasing were correct, showcasing the model's ability to effectively identify potential price increases in the S&P 500 index based on the historical data and the calculated RSI feature.
 
+### 8. **Future Improvements**
+To further enhance the model, we can consider expanding the feature set with additional technical indicators such as Moving Average Convergence Divergence (MACD), Bollinger Bands, and others. These indicators can provide deeper insights into market trends and volatility, potentially capturing aspects of market behavior not reflected by price and volume data alone.
+
 This project illustrates the application of machine learning techniques to financial data, highlighting the potential of quantitative methods in predicting market movements. The inclusion of the RSI as a momentum indicator alongside traditional price and volume information provided the model with a nuanced view of the market, contributing to its ability to forecast price movements with a reasonable degree of accuracy.
